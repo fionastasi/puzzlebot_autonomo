@@ -1,30 +1,23 @@
-# Puzzlebot Autónomo - Proyecto Final ROS2
+# Módulo de Visión Computacional
 
-Este proyecto implementa un robot móvil autónomo basado en un Puzzlebot utilizando ROS2 Humble. El objetivo es recorrer un entorno a escala que incluye rectas, curvas, cruces y obstáculos, tomando decisiones de navegación de manera completamente autónoma.
+Esta rama contiene los módulos relacionados con la detección de semáforos y señales viales.
 
-## Funcionalidad
+## Estructura
 
-- Seguimiento de línea
-- Evitación de obstáculos
-- Detección de semáforos y señales viales
-- Comportamiento adaptativo ante señales
-- Registro de detecciones en pantalla
+- : Nodo para detección de semáforos (rojo, amarillo, verde)
+- : Nodo de reconocimiento de señales estáticas
+- : Imágenes utilizadas para entrenar/clasificar señales
 
-## Comportamientos esperados según señal detectada
+## 🛰Comunicación ROS2
 
-| Señal             | Acción                                      |
-|-------------------|---------------------------------------------|
-| Work in progress  | Reducir velocidad al 50% por 10 segundos    |
-| Give Way          | Reducir velocidad al 50% por 5 segundos     |
-| Stop              | Detenerse completamente por 10 segundos     |
-| Flechas azules    | Continuar recto o girar en la dirección dada|
+### Publicaciones (`publishers`)
+- : Color del semáforo detectado
+- : Tipo de señal identificada
 
-## Ramas del Proyecto
+### Subscripciones (`subscribers`)
+- `: Imagen de la cámara del robot
 
-- : Detección de semáforos y señales usando visión por computadora.
-- : Implementación de seguimiento de línea y control basado en odometría.
+## Notas
 
-## Señales utilizadas
-
-Las imágenes de las señales utilizadas en la pista se encuentran en el directorio 
-
+- Los clasificadores fueron entrenados con imágenes reales tomadas de la pista
+- El sistema opera en tiempo real a _ FPS
