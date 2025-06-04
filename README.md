@@ -5,13 +5,14 @@ Esta rama contiene la lógica de movimiento autónomo del robot.
 ## Estructura
 
 - : Nodo que sigue la línea negra central
-- : Nodo que calcula y estima la posición del robot
+- : Nodo de odometría
+- : 
 
 ## Comunicación ROS2
 
 ### Publicaciones (`publishers`)
-- : Velocidad de las ruedas
-- : Estado actual (seguimiento, parado, lento, etc.)
+- :
+- :
 
 ### Subscripciones (`subscribers`)
 -
