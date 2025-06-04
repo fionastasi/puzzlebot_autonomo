@@ -1,2 +1,30 @@
-# puzzlebot_aut-nomo
-Stack de navegación autónoma en ROS2 para robot móvil diferencial. Incluye detección en tiempo real de semáforos y señales viales mediante visión computacional, seguimiento de línea y control basado en odometría.
+# Puzzlebot Autónomo - Proyecto Final ROS2
+
+Este proyecto implementa un robot móvil autónomo basado en un Puzzlebot utilizando ROS2 Humble. El objetivo es recorrer un entorno a escala que incluye rectas, curvas, cruces y obstáculos, tomando decisiones de navegación de manera completamente autónoma.
+
+## Funcionalidad
+
+- Seguimiento de línea
+- Evitación de obstáculos
+- Detección de semáforos y señales viales
+- Comportamiento adaptativo ante señales
+- Registro de detecciones en pantalla
+
+## Comportamientos esperados según señal detectada
+
+| Señal             | Acción                                      |
+|-------------------|---------------------------------------------|
+| Work in progress  | Reducir velocidad al 50% por 10 segundos    |
+| Give Way          | Reducir velocidad al 50% por 5 segundos     |
+| Stop              | Detenerse completamente por 10 segundos     |
+| Flechas azules    | Continuar recto o girar en la dirección dada|
+
+## Ramas del Proyecto
+
+- : Detección de semáforos y señales usando visión por computadora.
+- : Implementación de seguimiento de línea y control basado en odometría.
+
+## Señales utilizadas
+
+Las imágenes de las señales utilizadas en la pista se encuentran en el directorio 
+
