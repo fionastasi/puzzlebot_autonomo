@@ -8,7 +8,7 @@ Esta rama contiene los módulos relacionados con la detección de semáforos y s
 - : Nodo de reconocimiento de señales estáticas
 - : Imágenes utilizadas para entrenar/clasificar señales
 
-## 🛰Comunicación ROS2
+## Comunicación ROS2
 
 ### Publicaciones (`publishers`)
 - : Color del semáforo detectado
