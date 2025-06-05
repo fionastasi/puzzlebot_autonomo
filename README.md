@@ -31,5 +31,9 @@ Las imágenes de las señales utilizadas en la pista se encuentran en el directo
 ## Autores
 
 Daniel De Regules Gamboa
+
 Fiona Stasi Fernandez
+
 Alejandro Araiza Escamilla
+
+Paul Park
