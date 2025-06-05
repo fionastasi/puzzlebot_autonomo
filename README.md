@@ -1,4 +1,4 @@
-# Puzzlebot Autónomo - Proyecto Final ROS2
+# Robot Movil Autónomo (Puzzlebot) - Proyecto Final ROS2
 
 Este proyecto implementa un robot móvil autónomo basado en un Puzzlebot utilizando ROS2 Humble. El objetivo es recorrer un entorno a escala que incluye rectas, curvas, cruces y obstáculos, tomando decisiones de navegación de manera completamente autónoma.
 
@@ -28,3 +28,8 @@ Este proyecto implementa un robot móvil autónomo basado en un Puzzlebot utiliz
 
 Las imágenes de las señales utilizadas en la pista se encuentran en el directorio 
 
+## Autores
+
+Daniel De Regules Gamboa
+Fiona Stasi Fernandez
+Alejandro Araiza Escamilla
