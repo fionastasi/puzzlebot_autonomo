@@ -22,4 +22,4 @@ Esta rama contiene la lógica de movimiento autónomo del robot.
 ## Control
 
 - El seguidor de línea usa procesamiento de imagen y controlador proporcional
-- Odometría estimada mediante encoder simulado
+- La odometría se estima mediante un encoder simulado
