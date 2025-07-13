@@ -27,6 +27,10 @@ Este proyecto implementa un robot móvil autónomo basado en un Puzzlebot utiliz
 ## Diagrama de flujo
 ![Diagrama de nodos](rqt_graph.jpeg)
 
+## Demostración
+Video con el funcionamiento del robot autónomo durante la entrega final del proyectoo
+[!Video](https://img.youtube.com/vi/YKtL7-yI7R0)](https://www.youtube.com/watch?v=YKtL7-yI7R0)
+
 ## Autores
 
 Daniel De Regules Gamboa
