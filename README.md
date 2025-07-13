@@ -19,10 +19,11 @@ Este proyecto implementa un robot móvil autónomo basado en un Puzzlebot utiliz
 | Stop              | Detenerse completamente por 10 segundos     |
 | Flechas azules    | Continuar recto o girar en la dirección dada|
 
-## Ramas del Proyecto
+## Módulos del Proyecto
 
-- `vision-computacional`: Detección de semáforos y señales usando visión por computadora.
-- `control`: Implementación de seguimiento de línea y control basado en odometría.
+- `vision computacional`: Detección de semáforos y señales usando visión por computadora.
+- `control`: Implementación del control basado en odometría.
+- `navegaci{on`: Implementación de seguimiento de línea para la navegación
 
 ## Diagrama de flujo
 ![Diagrama de nodos](rqt_graph.jpeg)
