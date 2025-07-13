@@ -23,7 +23,7 @@ Este proyecto implementa un robot móvil autónomo basado en un Puzzlebot utiliz
 
 - `vision computacional`: Detección de semáforos y señales usando visión por computadora.
 - `control`: Implementación del control basado en odometría.
-- `navegaci{on`: Implementación de seguimiento de línea para la navegación
+- `navegación`: Implementación de seguimiento de línea para la navegación
 
 ## Diagrama de flujo
 ![Diagrama de nodos](rqt_graph.jpeg)
