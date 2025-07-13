@@ -1,0 +1,12 @@
+path: /home/danieldrg/Documents/data2 # Directorio al dataset
+train: images/train # Directorio de las imágenes de entrenamiento
+val: images/val # Directorio de las imágenes de validación
+
+# Classes
+names:
+  0: danger
+  1: giveaway
+  2: straight
+  3: left
+  4: right
+  5: stop
