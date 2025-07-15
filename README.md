@@ -30,7 +30,7 @@ Este proyecto implementa un robot móvil autónomo basado en un Puzzlebot utiliz
 
 ## Demostración
 Demo en video (clic en la imagen) 
-[![Video](demo_preview.png)](https://www.youtube.com/watch?v=YKtL7-yI7R0)
+[![Video](Puzzlebot.gif)](https://www.youtube.com/watch?v=YKtL7-yI7R0)
 
 ## Autores
 
